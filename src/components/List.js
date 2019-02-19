@@ -25,7 +25,7 @@ const List = props => {
 
   return (
     <div className={styles.index}>
-      <h5 className={styles.heading}>Projects</h5>
+      <h5 className={styles.heading}>Recent Projects</h5>
       <div className={styles.container}>
         {projects.map((project, index) => (
           <Project project={project} key={index} />
