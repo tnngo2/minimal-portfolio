@@ -7,6 +7,8 @@ import Container from "../components/Container"
 import Navigation from "../components/Navigation"
 import Header from "../components/Header"
 import List from "../components/List"
+import BlogList from "../components/BlogList"
+import BlogPost from "../../content/blog-post.json"
 
 const IndexPage = props => {
   const aboutData = props.data.about.edges[0]
@@ -17,6 +19,7 @@ const IndexPage = props => {
       <Navigation links={settings.information} />
       <div style={{ maxWidth: "500px" }}>
         <Header about={aboutData} />
+        <BlogList articles={BlogPost.articles} />
         <List projects={projectsData} />
       </div>
     </Container>

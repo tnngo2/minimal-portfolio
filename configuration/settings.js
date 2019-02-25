@@ -4,20 +4,21 @@ module.exports = {
   site: {
     url: "", // Domain your site will run on.
     path: "/", // Specify path to the portfolio. Example: "/portfolio".
-    shortTitle: "Minimal Porfolio", // This will display as heading
-    fullTitle: "Minimal Porfolio - Simplistic Gatsby porfolio template",
+    shortTitle: "Tuan Ngo", // This will display as heading
+    fullTitle: "Tuan Ngo's Personal Site",
     description:
-      "Minimalistic, black on white porfolio page for creative professionals.",
+      "A simple personal website",
     language: "en",
   },
   /* Your social media and contact information. Leave "null" if you don't want it to show. */
   // ----------
   information: {
-    mail: "mailto:mail@example.com",
-    linkedIn: "https://example.link",
-    twitter: "https://example.link",
+    mail: "tnngo2@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/tuan-ngo-6ba2136/",
+    twitter: null,
     facebook: null,
-    github: null,
+    github: "http://github.com/tnngo2",
+    blog: "https://medium.com/@tnngo2"
   },
   // Site appearance settings
   // ----------
@@ -26,7 +27,7 @@ module.exports = {
     font: {
       headerFontFamily: "Avenir Next",
       bodyFontFamily: "Georgia",
-      baseSize: "16px",
+      baseSize: "18px",
       baseLineHeight: 1.5,
       headerWeight: 700,
       bodyWeight: 400,
