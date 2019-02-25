@@ -1,4 +1,11 @@
-# Minimal Portfolio
+# Minimal Portfolio (folk by @tnngo2)
+
+## Description
+I added the BlogList component to display a list of blog article which is configured in `content/blog-post.json`.
+
+Refer the live demo in my personal page https://tnngo2.github.io/
+
+Original repo by @zielinsm (https://github.com/zielinsm/minimal-portfolio)
 
 ![Project screenshot](https://raw.githubusercontent.com/zielinsm/minimal-portfolio/master/cover.png)
 
